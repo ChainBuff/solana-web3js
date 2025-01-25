@@ -18,7 +18,7 @@ console.log("钱包私钥(base64):", Buffer.from(secretKey).toString("base64"));
 fs.writeFileSync("wallet.json", JSON.stringify(Array.from(secretKey)));
 
 // 导入钱包
-// const secretKey = Uint8Array.from(JSON.parse(fs.readFileSync("wallet.json")));
+// const secretKey = Uint8Array.from(JSON.parse(fs.readFileSync("wallet.json", "utf-8")));
 // const wallet = Keypair.fromSecretKey(secretKey);
 
 // console.log("钱包公钥:", wallet.publicKey.toString());
