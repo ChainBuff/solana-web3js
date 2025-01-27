@@ -6,6 +6,8 @@ Solana Web3.js 库是一个用于与 Solana 区块链进行交互的 JavaScript 
 
 本教程旨在提供一些简单的例子，帮助你快速上手 Solana 区块链开发。
 
+> English version (英文版): [README-en.md](./README-en.md)
+
 --- 
 
 在阅读之前，需要运行如下来安装@solana/web3.js，本教程使用的版本为1.95.4。
